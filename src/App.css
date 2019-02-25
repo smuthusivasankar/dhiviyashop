@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+.container{
+  width: 90%;
+  margin: auto;
+}
+#heading {
+  background-color: coral;
+  color:#fff;
+  padding: 0;
+  margin: 0;
+}
+#heading h1{
+  font-size: 4vw;
+  padding: 0;
+  margin: 0;
+}
+.login{
+  float: right;
+}
+.product-listing {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.product-listing .product-list-item {
+  padding: 5px;
+  width: 20%;
+  margin:10px;
+  border: 5px solid #ddd;
+  box-shadow: 5px 5px 5px 5px rgb(68,68, 68)
+}
+
+.product-list-item .add-btn {
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  color: white;
+  background-color: green;
+}
+
+.product-list-item .remove-btn {
+  padding: 5px 10px;
+  color: white;
+  background-color: grey;
+}
+@media screen and (max-width: 648px){
+.product-listing .product-list-item {
+ width:100%;
+}
+}
