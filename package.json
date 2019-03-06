@@ -2,7 +2,6 @@
   "name": "fetchdata",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://smuthusivasankar.github.io/dhiviyashop",
   "dependencies": {
     "axios": "^0.18.0",
     "netlify": "^2.4.0",
@@ -26,11 +25,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build"
   },
-  
-  "devDependencies": {
-    "gh-pages": "^2.0.1"
-  }
+  "devDependencies": {}
 }
