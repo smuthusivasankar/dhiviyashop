@@ -1,10 +1,8 @@
 import React, { Component } from 'react'
-import {Form,Button, Card,Input, Message} from 'semantic-ui-react';
-import UserInfo from './UserInfo';
+import {Form,Button, Message} from 'semantic-ui-react';
 import Validator from 'validator';
 import InlineError from '../errors/InlineError';
 import Proptypes from 'prop-types';
- 
 
 export default class LoginForm extends Component {
   state={
