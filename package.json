@@ -5,6 +5,7 @@
   "homepage": "http://smuthusivasankar.github.io/dhiviyashop",
   "dependencies": {
     "axios": "^0.18.0",
+    "netlify": "^2.4.0",
     "prop-types": "^15.6.2",
     "proptype": "^1.0.0",
     "react": "^16.5.0",
@@ -26,9 +27,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-     "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
-  "proxy": "http://localhost:8080",
+  
   "devDependencies": {
     "gh-pages": "^2.0.1"
   }
