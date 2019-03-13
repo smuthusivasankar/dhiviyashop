@@ -3,6 +3,7 @@ import React from 'react'
 export default function ProductListItem(props) {
     const thisItemInCart = props.cart.filter(item => item.id === props.product.id)[0]
     return <div className='product-list-item'>
+    <a href="/products/Book1.csv">csvfile</a>
       <h3>{props.product.name}</h3>
       <img
         height={100}
